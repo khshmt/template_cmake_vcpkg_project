@@ -1,6 +1,6 @@
-#include <iostream>
+#include <print.hpp>
 
 int main(int argc, char** argv) {
-    std::cout << "Hi there!!\n";
+    print("Hi There !");
     return 0;
 }
