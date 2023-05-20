@@ -1,9 +1,10 @@
 {
-    "_comment": "mention in dependencies section all the deps of your project",
-    "name": "here name your project with no capital letter or spaces or dashes ex projectname",
+    "name": "test",
     "version-string": "1.0",
     "dependencies": [
-      "",
-      ""
+      "pkg_1",
+      "pkg_2",
+      "pkg_3",
+      "and so on"
     ]
 }

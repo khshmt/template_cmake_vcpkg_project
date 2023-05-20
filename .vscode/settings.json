@@ -1,6 +1,6 @@
 {
   "_comment": "the value for CMAKE_TOOLCHAIN_FILE will be tha absolute path to your vcpkg.cmake file",
   "cmake.configureSettings": {
-    "CMAKE_TOOLCHAIN_FILE": "write your path/scripts/buildsystems/vcpkg.cmake"
+    "CMAKE_TOOLCHAIN_FILE": "C:/Data/vcpkg/scripts/buildsystems/vcpkg.cmake"
   }
 }
