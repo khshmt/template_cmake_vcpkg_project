@@ -1,0 +1,64 @@
+{
+    "name": "vcpkg-realtime-cuda-10-1",
+    "version-string": "1.0.0.0",
+    "dependencies": [
+        "gtest",
+        "spdlog",
+        "fmt",
+        {
+            "name": "opencv3",
+            "features": [
+                "cuda"
+            ]
+        },
+        "qtpropertybrowser",
+        "qt5-base",
+        "qt5-serialport",
+        "cereal",
+        {
+            "name": "pangolin",
+            "default-features": false,
+            "features": [
+                "eigen",
+                "gui",
+                "png",
+                "jpeg",
+                "vars"
+            ]
+        },
+        "eigen3",
+        "boost-serialization",
+        "boost-program-options",
+        "openssl",
+        "concurrentqueue",
+        "pcl",
+        "benchmark",
+        {
+            "name": "ffmpeg",
+            "features": [
+                "x265",
+                "nvcodec",
+                "ffmpeg",
+                "postproc"
+            ]
+        },
+        "nlohmann-json",
+        "ms-gsl",
+        "gsl",
+        "fdk-aac",
+        "freeglut",
+        {
+            "name": "ceres",
+            "features": [
+                "cxsparse",
+                "eigensparse",
+                "lapack",
+                "suitesparse"
+            ]
+        },
+        "openmvg",
+        "g2o",
+        "tbb"
+    ],
+    "overrides": []
+}
